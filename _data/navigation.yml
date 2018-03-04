@@ -2,10 +2,10 @@
 main:
 
   - title: "My Portofolio Projects"
-    url: https://chunml.github.io/portfolio
+    url: https://ioandraganai.github.io/portfolio
     
   - title: "AI Topics"
-    url: https://chunml.github.io/portfolio
+    url: https://ioandraganai.github.io/topics
     
   - title: "About"
     url: /about/
