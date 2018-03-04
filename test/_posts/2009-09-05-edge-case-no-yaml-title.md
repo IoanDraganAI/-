@@ -1,6 +1,6 @@
 ---
 categories:
-  - Edge Case
+  - Portofolio
 tags:
   - edge case
   - layout
