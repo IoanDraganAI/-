@@ -268,7 +268,7 @@ sns.jointplot(x='Time on Website',y='Yearly Amount Spent',data=customers)
 
 
 
-![png]({{ "/assets/images/LiniarRegression/Im1.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im1.png" }})
 
 
 ** Do the same but with the Time on App column instead. **
@@ -286,7 +286,7 @@ sns.jointplot(x='Time on App',y='Yearly Amount Spent',data=customers)
 
 
 
-![png]({{ "/assets/images/LiniarRegression/Im2.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im2.png" }})
 
 
 ** Use jointplot to create a 2D hex bin plot comparing Time on App and Length of Membership.**
@@ -304,7 +304,7 @@ sns.jointplot(x='Time on App',y='Length of Membership',kind='hex',data=customers
 
 
 
-![png]({{ "/assets/images/LiniarRegression/Im3.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im3.png" }})
 
 
 **Let's explore these types of relationships across the entire data set. Use [pairplot](https://stanford.edu/~mwaskom/software/seaborn/tutorial/axis_grids.html#plotting-pairwise-relationships-with-pairgrid-and-pairplot) to recreate the plot below.(Don't worry about the the colors)**
@@ -322,7 +322,7 @@ sns.pairplot(customers)
 
 
 
-![png]({{ "/assets/images/LiniarRegression/Im4.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im4.png" }})
 
 
 **Based off this plot what looks to be the most correlated feature with Yearly Amount Spent?**
@@ -347,7 +347,7 @@ sns.lmplot(x='Length of Membership',y='Yearly Amount Spent',data=customers)
 
 
 
-![png]({{ "/assets/images/LiniarRegression/Im5.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im5.png" }})
 
 
 ## Training and Testing Data
@@ -448,7 +448,7 @@ plt.ylabel('Predicted Y')
 
 
 
-![png]({{ "/assets/images/LiniarRegression/Im6.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im6.png" }})
 
 
 ## Evaluating the Model
@@ -484,7 +484,7 @@ sns.distplot((y_test-predictions),bins=50);
 ```
 
 
-![png]({{ "/assets/images/LiniarRegression/Im7.png" }})
+![png]({{ "/assets/img/LiniarRegression/Im7.png" }})
 
 
 ## Conclusion
