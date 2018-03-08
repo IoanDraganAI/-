@@ -268,8 +268,12 @@ sns.jointplot(x='Time on Website',y='Yearly Amount Spent',data=customers)
 
 
 
+<<<<<<< HEAD
 ![png]({{ "/assets/Im1.png" }})
 
+=======
+![png]({{ site.url }}/images/LiniarRegression/Im1.png)
+>>>>>>> c7e0d35a19aee3826eaf0d3e781b06731cbf8aa7
 
 ** Do the same but with the Time on App column instead. **
 
