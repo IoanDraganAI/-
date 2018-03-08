@@ -268,7 +268,7 @@ sns.jointplot(x='Time on Website',y='Yearly Amount Spent',data=customers)
 
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_11_1.png)
+![png]({{ "/assets/images/LiniarRegression/Im1.png" }})
 
 
 ** Do the same but with the Time on App column instead. **
@@ -286,7 +286,7 @@ sns.jointplot(x='Time on App',y='Yearly Amount Spent',data=customers)
 
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_13_1.png)
+![png]({{ "/assets/images/LiniarRegression/Im2.png" }})
 
 
 ** Use jointplot to create a 2D hex bin plot comparing Time on App and Length of Membership.**
@@ -304,7 +304,7 @@ sns.jointplot(x='Time on App',y='Length of Membership',kind='hex',data=customers
 
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_15_1.png)
+![png]({{ "/assets/images/LiniarRegression/Im3.png" }})
 
 
 **Let's explore these types of relationships across the entire data set. Use [pairplot](https://stanford.edu/~mwaskom/software/seaborn/tutorial/axis_grids.html#plotting-pairwise-relationships-with-pairgrid-and-pairplot) to recreate the plot below.(Don't worry about the the colors)**
@@ -322,7 +322,7 @@ sns.pairplot(customers)
 
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_17_1.png)
+![png]({{ "/assets/images/LiniarRegression/Im4.png" }})
 
 
 **Based off this plot what looks to be the most correlated feature with Yearly Amount Spent?**
@@ -347,7 +347,7 @@ sns.lmplot(x='Length of Membership',y='Yearly Amount Spent',data=customers)
 
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_21_1.png)
+![png]({{ "/assets/images/LiniarRegression/Im5.png" }})
 
 
 ## Training and Testing Data
@@ -448,7 +448,7 @@ plt.ylabel('Predicted Y')
 
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_39_1.png)
+![png]({{ "/assets/images/LiniarRegression/Im6.png" }})
 
 
 ## Evaluating the Model
@@ -484,7 +484,7 @@ sns.distplot((y_test-predictions),bins=50);
 ```
 
 
-![png](Linear%20Regression%20-%20Project%20Exercise_files/Linear%20Regression%20-%20Project%20Exercise_43_0.png)
+![png]({{ "/assets/images/LiniarRegression/Im7.png" }})
 
 
 ## Conclusion
@@ -542,12 +542,8 @@ Interpreting the coefficients:
 - Holding all other features fixed, a 1 unit increase in **Time on Website** is associated with an **increase of 0.19 total dollars spent**.
 - Holding all other features fixed, a 1 unit increase in **Length of Membership** is associated with an **increase of 61.27 total dollars spent**.
 
-**Do you think the company should focus more on their mobile app or on their website?**
+**Should the company focus more on their mobile app or on their website?**
 
 
 This is tricky, there are two ways to think about this: Develop the Website to catch up to the performance of the mobile app, or develop the app more since that is what is working better. This sort of answer really depends on the other factors going on at the company, you would probably want to explore the relationship between Length of Membership and the App or the Website before coming to a conclusion!
 
-
-## Great Job!
-
-Congrats on your contract work! The company loved the insights! Let's move on.
