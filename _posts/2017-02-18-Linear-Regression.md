@@ -268,7 +268,7 @@ sns.jointplot(x='Time on Website',y='Yearly Amount Spent',data=customers)
 
 
 
-![png]({{ "/images/LiniarRegression/Im1.png" }})
+![png]({{ "/assets/Im1.png" }})
 
 
 ** Do the same but with the Time on App column instead. **
@@ -286,7 +286,7 @@ sns.jointplot(x='Time on App',y='Yearly Amount Spent',data=customers)
 
 
 
-![png]({{ "/images/LiniarRegression/Im2.png" }})
+![png]({{ "/assets/Im2.png" }})
 
 
 ** Use jointplot to create a 2D hex bin plot comparing Time on App and Length of Membership.**
