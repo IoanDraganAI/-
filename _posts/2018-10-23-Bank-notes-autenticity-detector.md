@@ -1,5 +1,5 @@
 ---
-title: "Natural Language Processing"
+title: "Bank notes authenticity detector"
 categories:
   - DeepLearning
 ---
@@ -141,8 +141,8 @@ sns.countplot(x='Class',data=data)
 
 
 
+![png]({{ "/assets/output_10_1.png" | absolute_url }})
 
-![png](output_10_1.png)
 
 
 ** Create a PairPlot of the Data with Seaborn, set Hue to Class **
@@ -167,8 +167,7 @@ sns.pairplot(data,hue='Class')
 
 
 
-
-![png](output_12_2.png)
+![png]({{ "/assets/output_12_2.png" | absolute_url }})
 
 
 ## Data Preparation 
