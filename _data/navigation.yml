@@ -10,8 +10,9 @@ main:
   - title: "Reinforcement Learning"
     url: /topics/    
     
-   - title: "Generative Models"
-    url: /topics/   
+  - title: "Generative Models"
+    url: /topics/        
+  
     
     
   - title: "About"
