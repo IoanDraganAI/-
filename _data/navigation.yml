@@ -2,16 +2,16 @@
 main:
 
   - title: "Machine Learning"
-    url: /portofolio/
+    url: /machinelearning/
     
   - title: "Deep Learning"
-    url: /portofolio/
+    url: /deeplearning/
     
   - title: "Reinforcement Learning"
-    url: /portofolio/  
+    url: /reinforcementlearning/  
     
   - title: "Generative Models"
-    url: /portofolio/        
+    url: /generativemodels/        
   
     
     
