@@ -5,13 +5,13 @@ main:
     url: /portofolio/
     
   - title: "Deep Learning"
-    url: /topics/
+    url: /portofolio/
     
   - title: "Reinforcement Learning"
-    url: /topics/    
+    url: /portofolio/  
     
   - title: "Generative Models"
-    url: /topics/        
+    url: /portofolio/        
   
     
     
