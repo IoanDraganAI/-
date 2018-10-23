@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Clasic Machine learning"
+permalink: /portofolio/
+author_profile: true
+sidebar:
+  nav: "posts"
+---
+
+{% include base_path %}
+
+{% for post in site.posts %}
+  {% if post.categories contains 'Project' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
