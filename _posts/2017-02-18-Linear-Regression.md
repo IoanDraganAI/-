@@ -1,7 +1,7 @@
 ---
 title: "Linear regression"
 categories:
-  - Project
+  - MachineLearning
 ---
 
 ___
