@@ -1,11 +1,18 @@
 # main links links
 main:
 
-  - title: "My Portofolio Projects"
+  - title: "Clasic Machine Learning"
     url: /portofolio/
     
-  - title: "AI Topics"
+  - title: "Deep Learning"
     url: /topics/
+    
+  - title: "Reinforcement Learning"
+    url: /topics/    
+    
+   - title: "Generative Models"
+    url: /topics/   
+    
     
   - title: "About"
     url: /about/
