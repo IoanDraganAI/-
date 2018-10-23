@@ -269,7 +269,7 @@ sns.jointplot(x='Time on Website',y='Yearly Amount Spent',data=customers)
 
 
 
-![png]({{ "/assets/Im1.png" | absolute_url }})
+![png]({{ "/assets/img/LiniarRegression/Im1.png" | absolute_url }})
 
 
 

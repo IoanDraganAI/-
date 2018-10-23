@@ -141,7 +141,7 @@ sns.countplot(x='Class',data=data)
 
 
 
-![png]({{ "/assets/output_10_1.png" | absolute_url }})
+![png]({{ "/assets/img/BankAuth/output_10_1.png" | absolute_url }})
 
 
 
@@ -167,7 +167,7 @@ sns.pairplot(data,hue='Class')
 
 
 
-![png]({{ "/assets/output_12_2.png" | absolute_url }})
+![png]({{ "/assets/img/BankAuth/output_12_2.png" | absolute_url }})
 
 
 ## Data Preparation 
@@ -319,10 +319,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 ```python
 import tensorflow as tf
-```
 
-    C:\Users\Marcial\Anaconda3\lib\site-packages\h5py\__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
-      from ._conv import register_converters as _register_converters
 
 
 ** Create a list of feature column objects using tf.feature.numeric_column() as we did in the lecture**
