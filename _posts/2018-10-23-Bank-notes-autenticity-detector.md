@@ -152,17 +152,6 @@ sns.countplot(x='Class',data=data)
 sns.pairplot(data,hue='Class')
 ```
 
-    C:\Users\Marcial\Anaconda3\lib\site-packages\statsmodels\nonparametric\kde.py:494: RuntimeWarning: invalid value encountered in true_divide
-      binned = fast_linbin(X,a,b,gridsize)/(delta*nobs)
-    C:\Users\Marcial\Anaconda3\lib\site-packages\statsmodels\nonparametric\kdetools.py:34: RuntimeWarning: invalid value encountered in double_scalars
-      FAC1 = 2*(np.pi*bw/RANGE)**2
-    C:\Users\Marcial\Anaconda3\lib\site-packages\numpy\core\_methods.py:26: RuntimeWarning: invalid value encountered in reduce
-      return umr_maximum(a, axis, None, out, keepdims)
-
-
-
-
-
     <seaborn.axisgrid.PairGrid at 0x26bb34c9da0>
 
 
@@ -302,7 +291,7 @@ X = df_feat
 y = data['Class']
 ```
 
-** Use SciKit Learn to create training and testing sets of the data as we've done in previous lectures:**
+** Use SciKit Learn to create training and testing sets of the data:**
 
 
 ```python
@@ -322,7 +311,7 @@ import tensorflow as tf
 
 
 
-** Create a list of feature column objects using tf.feature.numeric_column() as we did in the lecture**
+** Create a list of feature column objects using tf.feature.numeric_column()**
 
 
 ```python
@@ -356,10 +345,6 @@ feat_cols = [image_var,image_skew,image_curt,entropy]
 classifier = tf.estimator.DNNClassifier(hidden_units=[10, 20, 10], n_classes=2,feature_columns=feat_cols)
 ```
 
-    INFO:tensorflow:Using default config.
-    WARNING:tensorflow:Using temporary folder as model directory: C:\Users\Marcial\AppData\Local\Temp\tmpw8v7z_z6
-    INFO:tensorflow:Using config: {'_model_dir': 'C:\\Users\\Marcial\\AppData\\Local\\Temp\\tmpw8v7z_z6', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': None, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x0000026BBA0F9FD0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
-
 
 ** Now create a tf.estimator.pandas_input_fn that takes in your X_train, y_train, batch_size and set shuffle=True. You can play around with the batch_size parameter if you want, but let's start by setting it to 20 since our data isn't very big. **
 
@@ -383,9 +368,9 @@ classifier.train(input_fn=input_func,steps=500)
     INFO:tensorflow:Graph was finalized.
     INFO:tensorflow:Running local_init_op.
     INFO:tensorflow:Done running local_init_op.
-    INFO:tensorflow:Saving checkpoints for 0 into C:\Users\Marcial\AppData\Local\Temp\tmpw8v7z_z6\model.ckpt.
+    INFO:tensorflow:Saving checkpoints for 0 into 
     INFO:tensorflow:loss = 13.792015, step = 1
-    INFO:tensorflow:Saving checkpoints for 48 into C:\Users\Marcial\AppData\Local\Temp\tmpw8v7z_z6\model.ckpt.
+    INFO:tensorflow:Saving checkpoints for 48 into 
     INFO:tensorflow:Loss for final step: 0.47980386.
 
 
@@ -415,7 +400,7 @@ note_predictions = list(classifier.predict(input_fn=pred_fn))
     INFO:tensorflow:Calling model_fn.
     INFO:tensorflow:Done calling model_fn.
     INFO:tensorflow:Graph was finalized.
-    INFO:tensorflow:Restoring parameters from C:\Users\Marcial\AppData\Local\Temp\tmpw8v7z_z6\model.ckpt-48
+    INFO:tensorflow:Restoring parameters from 
     INFO:tensorflow:Running local_init_op.
     INFO:tensorflow:Done running local_init_op.
 
