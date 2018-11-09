@@ -1,5 +1,5 @@
 ---
-title: "Bank notes authenticity detector"
+title: "Artifficial Neural Networks applied to Churn Modeling"
 categories:
   - DeepLearning
 ---

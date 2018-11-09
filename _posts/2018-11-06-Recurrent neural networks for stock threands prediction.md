@@ -1,5 +1,5 @@
 ---
-title: "Bank notes authenticity detector"
+title: "Recurrent neural networks for stock threands prediction"
 categories:
   - DeepLearning
 ---

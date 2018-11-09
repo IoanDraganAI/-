@@ -1,5 +1,5 @@
 ---
-title: "Bank notes authenticity detector"
+title: "Convolutional neural networks for image processing"
 categories:
   - DeepLearning
 ---
