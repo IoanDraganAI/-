@@ -1,17 +1,15 @@
 # main links links
 main:
 
-  - title: "Machine Learning"
-    url: /machinelearning/
+  - title: "Data processing"
+    url: /dataprocessing/
     
-  - title: "Deep Learning"
-    url: /deeplearning/
+  - title: "Image processing"
+    url: /imageprocessing/
     
-  - title: "Reinforcement Learning"
-    url: /reinforcementlearning/  
+  - title: "Natural language processing"
+    url: /naturallanguageprocessing/  
     
-  - title: "Generative Models"
-    url: /generativemodels/        
   
     
     
@@ -26,8 +24,8 @@ posts:
         url: /generativemodels/Natural-Language-Processing/
         
       - title: "■ Support Vector Machines"
-        url: /reinforcementlearning/Support-Vector-Machines/
+        url: /dataprocessing/Support-Vector-Machines/
         
       - title: "■ Decision Trees and Random Forests"
-        url: /machinelearning/Decision-Trees_and-Random-Forest/
+        url: /dataprocessing/Decision-Trees_and-Random-Forest/
         

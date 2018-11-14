@@ -1,7 +1,7 @@
 ---
 title: "Artifficial Neural Networks applied to Churn Modeling"
 categories:
-  - DeepLearning
+  - DataProcessing
 ---
 
 The dataset of a bank with a snapshot of sample of 10.000 customers. 

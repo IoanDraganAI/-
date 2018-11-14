@@ -1,7 +1,7 @@
 ---
 title: "Recurrent neural networks for stock threands prediction"
 categories:
-  - DeepLearning
+  - DataProcessing
 ---
 
 In this project I will use Recurrent Neural network to predict the threand in the Google stock price.

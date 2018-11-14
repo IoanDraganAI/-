@@ -1,7 +1,7 @@
 ---
 title: "Convolutional neural networks for image processing"
 categories:
-  - DeepLearning
+  - ImageProcessing
 ---
 
 In this project I will use convolutional neural networks for image classification.

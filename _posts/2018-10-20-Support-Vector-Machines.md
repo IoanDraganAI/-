@@ -1,7 +1,7 @@
 ---
 title: "K Means Clustering"
 categories:
-  - ReinforcementLearning
+  - DataProcessing
 ---
 
 We will be analyzing the famous iris data set!

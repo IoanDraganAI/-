@@ -1,7 +1,7 @@
 ---
 title: "Bank notes authenticity detector"
 categories:
-  - DeepLearning
+  - DataProcessing
 ---
 
 
