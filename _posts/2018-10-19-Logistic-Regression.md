@@ -1,5 +1,5 @@
 ---
-title: "Logistic Regression"
+title: "Logistic Regression for advertisement predictions"
 categories:
   - DataProcessing
 ---

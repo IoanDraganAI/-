@@ -1,5 +1,5 @@
 ---
-title: "Artifficial Neural Networks applied to Churn Modeling"
+title: "Artifficial Neural Networks applied to churn modeling"
 categories:
   - DataProcessing
 ---

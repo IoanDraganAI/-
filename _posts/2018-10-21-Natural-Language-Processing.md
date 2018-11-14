@@ -1,5 +1,5 @@
 ---
-title: "Natural Language Processing"
+title: "Natural Language Processing for Yelp reviews rating"
 categories:
   - NaturalLanguageProcessing
 ---

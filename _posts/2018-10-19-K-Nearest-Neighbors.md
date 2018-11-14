@@ -1,5 +1,5 @@
 ---
-title: "K Nearest Neighbors"
+title: "K Nearest Neighbors for data analysis"
 categories:
   - DataProcessing
 ---

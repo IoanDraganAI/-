@@ -1,7 +1,7 @@
 ---
-title: "K Means Clustering"
+title: "Support Vector Machine for image classification"
 categories:
-  - DataProcessing
+  - ImageProcessing
 ---
 
 We will be analyzing the famous iris data set!

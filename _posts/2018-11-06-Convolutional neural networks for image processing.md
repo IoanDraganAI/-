@@ -1,5 +1,5 @@
 ---
-title: "Convolutional neural networks for image processing"
+title: "Convolutional neural networks for image classification"
 categories:
   - ImageProcessing
 ---

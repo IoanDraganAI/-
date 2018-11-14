@@ -1,5 +1,5 @@
 ---
-title: "K Means Clustering"
+title: "K Means Clustering for data analysis"
 categories:
   - DataProcessing
 ---
