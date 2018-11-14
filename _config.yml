@@ -8,7 +8,7 @@
 
 remote_theme: "mmistakes/minimal-mistakes"
 locale                   : "en"
-title                    : "Ioan's Portofolio"
+title                    : "Ioan's Machine Learning Portofolio"
 title_separator          : "-"
 name                     : "Ioan Dragan"
 description              : "Data science and machine learning projects"
